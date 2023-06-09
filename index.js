@@ -17,6 +17,8 @@ db.connect();
 
 //cloudinary se connect
 const cloudinary = require("./config/cloudinary")
+const clickhouse = require('clickhouse');
+
 cloudinary.cloudinaryConnect();
 
 //api route mount krna h
